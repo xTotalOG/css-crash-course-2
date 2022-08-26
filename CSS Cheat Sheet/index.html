@@ -1,13 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cheat Sheet</title>
-</head>
 
-<body>
-    
-</body>
+    <!--Internal CSS-->
+    <style>
+      h4 {
+        color: grey;
+      }
+    </style>
+
+    <!--External CSS-->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+
+  <body>
+    <!--Inline CSS-->
+    <h1 style="color: grey">Hello World</h1>
+
+    <!--Internal (continued)-->
+    <h4>Goodbye World</h2>
+
+    <!--External (continued)-->
+    <h3>So Cool</h3>
+
+    <!--Start of Practice-->
+    <div class="container">
+    <!--Boxes-->
+      <div class="box-1">
+        <h1>Hello World</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+          doloribus necessitatibus dignissimos a est quo magni culpa excepturi
+          tempora, nesciunt qui delectus alias aspernatur. Repellat aperiam ut
+          repellendus deleniti optio.
+        </p>
+      </div>
+      <div class="box-2">
+        <h1>Goodbye</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+          doloribus necessitatibus dignissimos a est quo magni culpa excepturi
+          tempora, nesciunt qui delectus alias aspernatur. Repellat aperiam ut
+          repellendus deleniti optio.
+        </p>
+        <a href="#" class="button">Read More</a>
+      </div>
+
+    <!--Lists-->
+      <div class="categories">
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#">Category 1</a></li>
+            <li><a href="#">Category 2</a></li>
+            <li><a href="#">Category 3</a></li>
+            <li><a href="#">Category 4</a></li>
+        </ul>
+      </div>
+
+<br>
+
+    <!--Forms-->
+      <form class="my-form">
+        <div class="form-group">
+            <label>Name:</label>
+            <input type="text" name="name">
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="text" name="email">
+        </div>
+        <div class="form-group">
+            <label>Message:</label>
+            <textarea name="message"></textarea>
+        </div>
+        <!--Button-->
+        <input type="Submit" name="submit" value="Submit" class="button">
+      </form>
+
+    <!--Float them Horizontally-->
+      <div class="block">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eveniet a ad perspiciatis doloremque impedit eligendi, harum sit mollitia voluptatibus sequi? Facilis enim magni commodi quo eveniet voluptatum nemo excepturi!</p>
+      </div>
+      <div class="block">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eveniet a ad perspiciatis doloremque impedit eligendi, harum sit mollitia voluptatibus sequi? Facilis enim magni commodi quo eveniet voluptatum nemo excepturi!</p>
+      </div>
+      <div class="block">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eveniet a ad perspiciatis doloremque impedit eligendi, harum sit mollitia voluptatibus sequi? Facilis enim magni commodi quo eveniet voluptatum nemo excepturi!</p>
+      </div>
+
+      <!--Clear Float Distortion-->
+      <div class="clr"></div>
+
+<br>
+
+      <!--Float with Ratios-->
+      <div id="main-block">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eveniet a ad perspiciatis doloremque impedit eligendi, harum sit mollitia voluptatibus sequi? Facilis enim magni commodi quo eveniet voluptatum nemo excepturi!</p>
+      </div>
+      <div id="side-bar">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eveniet a ad perspiciatis doloremque impedit eligendi, harum sit mollitia voluptatibus sequi? Facilis enim magni commodi quo eveniet voluptatum nemo excepturi!</p>
+      </div>
+
+      <div class="clr"></div>
+
+      <!--Positioning in CSS-->
+      <div class="p-box">
+        <h1>Hello</h1>
+        <h2>Goodbye</h2>
+      </div>
+
+      <ul class="my-list">
+          <li><a href="">List Item</a></li>
+          <li><a href="">List Item</a></li>
+          <li><a href="">List Item</a></li>
+          <li><a href="">List Item</a></li>
+          <li><a href="">List Item</a></li>
+          <li><a href="">List Item</a></li>
+          <li><a href="">List Item</a></li>
+          <li><a href="">List Item</a></li>
+          <li><a href="">List Item</a></li>
+    </ul>
+    </div> <!--End of Container-->
+
+        <!--Fixed Positioning-->
+    <a href="" class="button fix-me">Hello</a>
+
+    <div style="margin-top: 500px;"></div>
+  </body>
 </html>
